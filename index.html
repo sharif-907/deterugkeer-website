@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>De Terugkeer | Van Bekeerd naar Standvastig</title>
+  <meta name="description" content="Een veilige haven voor bekeerlingen in Rotterdam. Begeleiding, lessen en broederschap na de Shahada.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════ -->
+<nav class="main-nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="logo_transparent.png" alt="De Terugkeer Logo">
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#over-ons">Over Ons</a></li>
+      <li><a href="#aanbod">Aanbod</a></li>
+      <li><a href="events.html">Agenda</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <!-- PLACEHOLDER: Replace # with actual donation link -->
+      <li><a href="#doneer" class="nav-cta">Doneer</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu openen">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Navigation -->
+<div class="mobile-nav" aria-hidden="true">
+  <a href="index.html">Home</a>
+  <a href="#over-ons">Over Ons</a>
+  <a href="#aanbod">Aanbod</a>
+  <a href="events.html">Agenda</a>
+  <a href="contact.html">Contact</a>
+  <!-- PLACEHOLDER: Replace # with actual donation link -->
+  <a href="#doneer" class="mobile-cta">Doneer</a>
+</div>
+
+<!-- ══════════════════════════════════════
+     HERO
+══════════════════════════════════════ -->
+<section class="hero">
+  <!-- Real photo: packed community event — shows scale -->
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
+  <!-- Animated Islamic geometric SVG pattern -->
+  <svg class="hero-geo" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <pattern id="geo-star" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+        <!-- 8-pointed star -->
+        <path d="M40 5 L44 30 L65 12 L52 34 L76 40 L52 46 L65 68 L44 50 L40 75 L36 50 L15 68 L28 46 L4 40 L28 34 L15 12 L36 30 Z"
+              fill="none" stroke="#38bdf8" stroke-width="0.6"/>
+        <!-- Inner square rotated -->
+        <rect x="30" y="30" width="20" height="20" transform="rotate(45 40 40)"
+              fill="none" stroke="#38bdf8" stroke-width="0.4"/>
+        <!-- Corner dots -->
+        <circle cx="40" cy="0" r="1.2" fill="#38bdf8"/>
+        <circle cx="80" cy="40" r="1.2" fill="#38bdf8"/>
+        <circle cx="40" cy="80" r="1.2" fill="#38bdf8"/>
+        <circle cx="0" cy="40" r="1.2" fill="#38bdf8"/>
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#geo-star)"/>
+  </svg>
+
+  <div class="container">
+    <div class="hero-content">
+      <span class="hero-tag reveal">Rotterdam · Voor Bekeerlingen</span>
+      <h1 class="reveal reveal-delay-1">Van Zoeken<br>Naar <span>Standvastig</span></h1>
+      <p class="hero-subtitle reveal reveal-delay-2">
+        De weg na de Shahada is een reis. Wij zijn er om die reis samen met jou af te leggen, stap voor stap, met rust en begrip.
+      </p>
+      <div class="hero-btns reveal reveal-delay-3">
+        <a href="#over-ons" class="btn-primary">Leer Ons Kennen</a>
+        <a href="contact.html" class="btn-outline">Neem Contact Op</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Impact Bar ── -->
+<div class="impact-bar">
+  <div class="container">
+    <div class="impact-bar-inner reveal">
+      <!-- PLACEHOLDER: Replace stats with real numbers from client -->
+      <div class="impact-item">
+        <span class="impact-num">5+</span>
+        <span class="impact-label">Jaar Ervaring</span>
+      </div>
+      <div class="impact-item">
+        <span class="impact-num">100+</span>
+        <span class="impact-label">Bekeerlingen Begeleid</span>
+      </div>
+      <div class="impact-item">
+        <span class="impact-num">Gratis</span>
+        <span class="impact-label">Toegankelijk</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     ARABIC DIVIDER — هداية (Hidayah)
+══════════════════════════════════════ -->
+<div class="arabic-divider section-padding" style="padding-top: 60px; padding-bottom: 20px;">
+  <span class="arabic-word" lang="ar" dir="rtl">هداية</span>
+  <span class="arabic-translation">Hidayah · Leiding</span>
+</div>
+
+<!-- ══════════════════════════════════════
+     OVER ONS
+══════════════════════════════════════ -->
+<section id="over-ons" class="over-ons section-padding" style="padding-top: 40px;">
+  <div class="container">
+    <div class="grid-2">
+      <!-- Left: photo stack -->
+      <div class="photo-stack reveal">
+        <!-- Brotherhood photo — warm embrace, smiling -->
+        <div class="photo-1">
+          <img src="Fotos%20website/DSC07820.jpg" alt="Broederschap bij De Terugkeer">
+        </div>
+        <!-- Brotherhood embrace — joyful hug -->
+        <div class="photo-2">
+          <img src="Fotos%20website/DSC00348.jpg" alt="Warme verbinding bij De Terugkeer">
+        </div>
+      </div>
+
+      <!-- Right: text -->
+      <div>
+        <p class="section-label reveal">Wie Zijn Wij</p>
+        <h2 class="reveal reveal-delay-1">Een Veilige<br><span style="color: var(--accent)">Haven</span></h2>
+        <div class="title-line reveal reveal-delay-1"></div>
+        <p class="reveal reveal-delay-2">
+          Wij hebben door de jaren heen veel bekeerlingen ontmoet. Ieder met een eigen verhaal, eigen pijn en eigen hoop. Wat ons steeds opnieuw raakte, is dat de weg na de shahada vaak zwaarder is dan vooraf wordt gedacht. Het begin is mooi en intens, maar daarna begint de echte uitdaging: standvastig blijven terwijl alles om je heen blijft bewegen.
+        </p>
+        <p class="reveal reveal-delay-3">
+          We leven in een tijd waarin het internet nooit slaapt. Informatie is overal, meningen vliegen alle kanten op, maar echte begeleiding is schaars. Veel bekeerlingen staan er alleen voor, vaak in een omgeving die hun groei in de islam niet begrijpt of zelfs tegenwerkt.
+        </p>
+        <!-- Inline photo between text paragraphs — personal guidance conversation -->
+        <div class="reveal reveal-delay-3" style="margin: 12px 0 20px; border-radius: 14px; overflow: hidden; max-height: 220px;">
+          <img src="Fotos%20website/DSC00754.jpg" alt="Persoonlijke begeleiding bij De Terugkeer" style="width: 100%; height: 220px; object-fit: cover; object-position: center 20%;">
+        </div>
+        <p class="reveal reveal-delay-3">
+          Vanuit onze ervaring zien wij dat omgeving, kennis en stap-voor-stap groei het verschil maken. Geen haast, geen druk, maar begeleiding met begrip en diepgang.
+        </p>
+        <div class="pull-quote reveal reveal-delay-4">
+          <p>"Standvastig blijven terwijl alles om je heen blijft bewegen — daar zijn wij voor."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extra paragraph full width -->
+    <p class="reveal" style="max-width: 760px; margin: 48px auto 0; text-align: center; font-size: 1.05rem; line-height: 1.9;">
+      Daarom bouwen wij aan een veilige haven. Een plek waar je welkom bent om te leren en te groeien. Waar lessen worden gegeven met hart en inhoud. Waar broederschap voelbaar is. En waar ook niet-moslim familie welkom is. In shaa Allah openen wij hiervoor een locatie in Rotterdam.
+    </p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     ARABIC DIVIDER — صبر (Sabr)
+══════════════════════════════════════ -->
+<div class="arabic-divider" style="padding: 20px 0;">
+  <span class="arabic-word" lang="ar" dir="rtl">صبر</span>
+  <span class="arabic-translation">Sabr · Geduld</span>
+</div>
+
+<!-- ══════════════════════════════════════
+     DE REIS — Journey Timeline
+══════════════════════════════════════ -->
+<section id="de-reis" class="de-reis section-padding">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2>Jouw <span style="color: var(--accent)">Reis</span></h2>
+      <p>Elke bekeerling heeft een unieke weg. Dit zijn de vijf fasen die velen van ons herkennen.</p>
+    </div>
+
+    <div class="journey-track">
+      <div class="journey-line">
+        <div class="journey-line-fill"></div>
+      </div>
+
+      <div class="journey-node active" data-index="0">
+        <div class="node-circle">01</div>
+        <div class="node-content">
+          <div class="node-stage">Zoeken</div>
+          <div class="node-feeling">Je voelt dat er meer is. Vragen, twijfels, aangetrokken voelen tot de islam.</div>
+          <div class="node-offer">Wij zijn er om te luisteren — zonder oordeel.</div>
+        </div>
+      </div>
+
+      <div class="journey-node" data-index="1">
+        <div class="node-circle">02</div>
+        <div class="node-content">
+          <div class="node-stage">Shahada</div>
+          <div class="node-feeling">Het mooiste moment. Een nieuw begin vol hoop en energie.</div>
+          <div class="node-offer">Wij vieren het met je en staan naast je vanaf dag één.</div>
+        </div>
+      </div>
+
+      <div class="journey-node" data-index="2">
+        <div class="node-circle">03</div>
+        <div class="node-content">
+          <div class="node-stage">Begin</div>
+          <div class="node-feeling">Alles is nieuw en overweldigend. Wat doe ik nu? Hoe bid ik?</div>
+          <div class="node-offer">Stap-voor-stap basiskennis zonder druk of haast.</div>
+        </div>
+      </div>
+
+      <div class="journey-node" data-index="3">
+        <div class="node-circle">04</div>
+        <div class="node-content">
+          <div class="node-stage">Uitdagingen</div>
+          <div class="node-feeling">Familie, omgeving, twijfel. Het wordt zwaarder dan verwacht.</div>
+          <div class="node-offer">Persoonlijke begeleiding en broederschap die je draagt.</div>
+        </div>
+      </div>
+
+      <div class="journey-node" data-index="4">
+        <div class="node-circle">05</div>
+        <div class="node-content">
+          <div class="node-stage">Standvastig</div>
+          <div class="node-feeling">Rust. Vertrouwen. Een fundament dat houdt.</div>
+          <div class="node-offer">Dit bouwen we samen — stap voor stap.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     ARABIC DIVIDER — توكل (Tawakkul)
+══════════════════════════════════════ -->
+<div class="arabic-divider" style="padding: 20px 0;">
+  <span class="arabic-word" lang="ar" dir="rtl">توكل</span>
+  <span class="arabic-translation">Tawakkul · Vertrouwen</span>
+</div>
+
+<!-- ══════════════════════════════════════
+     ONS AANBOD
+══════════════════════════════════════ -->
+<section id="aanbod" class="aanbod section-padding">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2>Ons <span style="color: var(--accent)">Aanbod</span></h2>
+      <p>Wij begeleiden bekeerlingen in hun groei — niet door te duwen, maar door naast je te lopen.</p>
+    </div>
+
+    <div class="aanbod-grid">
+
+      <div class="aanbod-card glass-card reveal">
+        <span class="card-bg-num">01</span>
+        <div class="card-icon-box">
+          <!-- Book icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+          </svg>
+        </div>
+        <h3>Basiskennis van de Islam</h3>
+        <p>Duidelijke en betrouwbare lessen, opgebouwd in stappen, zonder overweldiging. Kennis die beklijft.</p>
+      </div>
+
+      <div class="aanbod-card glass-card reveal reveal-delay-1">
+        <span class="card-bg-num">02</span>
+        <div class="card-icon-box">
+          <!-- Heart icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+          </svg>
+        </div>
+        <h3>Begeleiding na de Shahada</h3>
+        <p>Ondersteuning in de praktische en innerlijke uitdagingen die volgen na het bekeren. Niemand staat er alleen voor.</p>
+      </div>
+
+      <div class="aanbod-card glass-card reveal reveal-delay-2">
+        <span class="card-bg-num">03</span>
+        <div class="card-icon-box">
+          <!-- Shield icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+          </svg>
+        </div>
+        <h3>Persoonlijke Groei en Standvastigheid</h3>
+        <p>Handvatten om om te gaan met twijfel, druk van buitenaf en momenten van terugval. Groei met rust.</p>
+      </div>
+
+      <div class="aanbod-card glass-card reveal reveal-delay-1">
+        <span class="card-bg-num">04</span>
+        <div class="card-icon-box">
+          <!-- Users icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+          </svg>
+        </div>
+        <h3>Verbinding en Broederschap</h3>
+        <p>Een veilige omgeving waarin je je gezien voelt en niet alleen staat. Echte verbinding met mensen die begrijpen.</p>
+      </div>
+
+      <div class="aanbod-card glass-card reveal reveal-delay-2">
+        <span class="card-bg-num">05</span>
+        <div class="card-icon-box">
+          <!-- Calendar icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+          </svg>
+        </div>
+        <h3>Toegankelijke Bijeenkomsten</h3>
+        <p>Met ruimte voor vragen, reflectie en dialoog — ook voor niet-moslim familieleden die willen begrijpen.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     QURANIC VERSE SECTION
+══════════════════════════════════════ -->
+<section class="verse-section">
+  <!-- Background: projected Quranic verse slide from a real event -->
+  <div class="verse-bg"></div>
+  <div class="verse-overlay"></div>
+  <div class="container">
+    <div class="verse-content reveal">
+      <p class="verse-arabic" lang="ar" dir="rtl">
+        يُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَيُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَيُحْيِي الْأَرْضَ بَعْدَ مَوْتِهَا
+      </p>
+      <p class="verse-dutch">
+        "Hij brengt het levende voort uit het dode en Hij brengt het dode voort uit het levende,<br>
+        en Hij doet de aarde herleven na haar dood."
+      </p>
+      <span class="verse-source">Soerat Ar-Roem · 30:19</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     PHOTO GRID
+══════════════════════════════════════ -->
+<section class="photo-grid-section section-padding">
+  <div class="container">
+    <div class="section-header reveal" style="margin-bottom: 50px;">
+      <h2>Ons <span style="color: var(--accent)">Gemeenschap</span></h2>
+      <p>Echte mensen. Echte momenten. Echte verbinding.</p>
+    </div>
+
+    <!-- 3-column masonry with parallax -->
+    <div class="photo-masonry">
+      <!-- Column 1 -->
+      <div class="masonry-col">
+        <div class="masonry-item">
+          <img src="Fotos%20website/DSC00628.jpg" alt="Drie broeders samen bij De Terugkeer bijeenkomst">
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="masonry-item">
+          <img src="Fotos%20website/DSC08113.jpg" alt="De gemeenschap van De Terugkeer samen">
+          <div class="photo-overlay"></div>
+        </div>
+      </div>
+      <!-- Column 2 -->
+      <div class="masonry-col">
+        <div class="masonry-item">
+          <img src="Fotos%20website/DSC07575.jpg" alt="Warme omhelzing bij De Terugkeer event">
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="masonry-item">
+          <img src="Fotos%20website/DSC07885.jpg" alt="Spreker deelt zijn verhaal met de gemeenschap">
+          <div class="photo-overlay"></div>
+        </div>
+      </div>
+      <!-- Column 3 -->
+      <div class="masonry-col">
+        <div class="masonry-item">
+          <img src="Fotos%20website/DSC07716.jpg" alt="Deelnemer met een brede glimlach bij De Terugkeer">
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="masonry-item">
+          <img src="Fotos%20website/DSC07864.jpg" alt="Persoonlijk gesprek tijdens een panel bij De Terugkeer">
+          <div class="photo-overlay"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     DONATION CTA
+══════════════════════════════════════ -->
+<section id="doneer" class="doneer-section">
+  <!-- Background: golden tea tray — warm, generous atmosphere -->
+  <div class="doneer-bg"></div>
+  <div class="doneer-overlay"></div>
+  <div class="container">
+    <div class="doneer-content reveal">
+      <p class="section-label">Steun Ons</p>
+      <h2>Steun De Reis Van Een <span style="color: var(--accent)">Terugkeerling</span></h2>
+      <p>
+        Jouw donatie helpt ons om lessen, begeleiding en bijeenkomsten gratis toegankelijk te houden. Elke bijdrage, groot of klein, maakt een verschil in iemands leven.
+      </p>
+      <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+        <!-- PLACEHOLDER: Replace # with actual donation payment link (PayPal / tikkie / iDEAL) -->
+        <a href="#" class="btn-primary" style="font-size: 0.9rem; padding: 18px 40px;">
+          Doneer Nu
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </a>
+        <a href="contact.html" class="btn-outline">Meer Informatie</a>
+      </div>
+      <p class="doneer-note">Automatische incasso mogelijk · Veilig betalen · 100% naar de gemeenschap</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     FAQ ACCORDION
+══════════════════════════════════════ -->
+<section class="faq-section section-padding">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2>Veelgestelde <span style="color: var(--accent)">Vragen</span></h2>
+      <p>Antwoorden op wat mensen ons het vaakst vragen.</p>
+    </div>
+
+    <div class="faq-list">
+
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          <span>Moet ik al moslim zijn om contact op te nemen?</span>
+          <div class="faq-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+            </svg>
+          </div>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Nee, absoluut niet. Iedereen is welkom — of je nu aan het zoeken bent, net je Shahada hebt uitgesproken, of al langer moslim bent maar meer begeleiding zoekt. Ook niet-moslim familieleden zijn van harte welkom.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-1">
+        <button class="faq-question">
+          <span>Is er een vergoeding verbonden aan de begeleiding?</span>
+          <div class="faq-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+            </svg>
+          </div>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Onze begeleiding en bijeenkomsten zijn gratis toegankelijk. Wij geloven dat niemand achtergelaten mag worden vanwege financiële redenen. Wil je ons werk ondersteunen? Dat kan via een donatie.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-1">
+        <button class="faq-question">
+          <span>Wat als mijn omgeving de islam niet begrijpt of tegenwerkt?</span>
+          <div class="faq-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+            </svg>
+          </div>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Juist daarvoor zijn wij er. Het omgaan met druk van familie, vrienden of de samenleving is een van de grootste uitdagingen voor bekeerlingen. Wij bieden handvatten, begeleiding en een veilige ruimte om hierover te praten.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-2">
+        <button class="faq-question">
+          <span>Kan mijn niet-moslim familielid ook naar de bijeenkomsten komen?</span>
+          <div class="faq-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+            </svg>
+          </div>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Ja, familieleden zijn van harte welkom. Wij geloven dat begrip vanuit de omgeving essentieel is. Onze bijeenkomsten bieden ruimte voor vragen en dialoog — ook voor mensen die de islam beter willen begrijpen.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-2">
+        <button class="faq-question">
+          <span>Wat als ik nog twijfels heb over de islam?</span>
+          <div class="faq-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+            </svg>
+          </div>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Twijfel is menselijk en volkomen welkom bij ons. Een plek waar fouten mogen bestaan en vragen welkom zijn — dat is wat wij willen zijn. Je hoeft niet perfect te zijn om bij ons terecht te kunnen.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-3">
+        <button class="faq-question">
+          <span>Is er een vaste locatie in Rotterdam?</span>
+          <div class="faq-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+            </svg>
+          </div>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            In shaa Allah openen wij binnenkort een vaste locatie in Rotterdam. Houd onze sociale media in de gaten voor updates, of schrijf je in voor onze nieuwsbrief via de agendapagina.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer class="main-footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <img src="logo_transparent.png" alt="De Terugkeer Logo">
+        <p>Van Bekeerd naar Standvastig. Een veilige haven voor bekeerlingen in Rotterdam, met hart, kennis en verbinding.</p>
+        <a href="mailto:info@deterugkeer.nl" class="footer-email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+          </svg>
+          info@deterugkeer.nl
+        </a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigatie</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#over-ons">Over Ons</a></li>
+          <li><a href="#aanbod">Ons Aanbod</a></li>
+          <li><a href="events.html">Agenda</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <!-- PLACEHOLDER: Replace # with actual donation link -->
+          <li><a href="#">Doneer</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Volg Ons</h4>
+        <div class="social-links">
+          <a href="https://www.instagram.com/deterugkeer?igsh=bmsycGRvMWJ2MHlh" class="social-link" aria-label="Instagram @deterugkeer" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+            @deterugkeer
+          </a>
+          <a href="https://www.tiktok.com/@de.terugkeer" class="social-link" aria-label="TikTok @de.terugkeer" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.2 8.2 0 004.79 1.53V6.78a4.85 4.85 0 01-1.02-.09z"/>
+            </svg>
+            @de.terugkeer
+          </a>
+        </div>
+        <div style="margin-top: 24px;">
+          <p style="font-size: 0.85rem; margin-bottom: 6px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display: inline; vertical-align: middle; margin-right: 6px; color: var(--accent);">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
+            Rotterdam
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 De Terugkeer Rotterdam. Alle rechten voorbehouden.</p>
+      <p><a href="#">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════
+     STICKY DONATION CAPSULE
+══════════════════════════════════════ -->
+<!-- PLACEHOLDER: Replace # with actual donation payment link -->
+<a href="#" class="donation-capsule" aria-label="Doneer aan De Terugkeer">
+  <div class="capsule-pulse">
+    <div class="capsule-dot"></div>
+  </div>
+  <span class="capsule-text">Doneer</span>
+  <span class="capsule-arrow">→</span>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
