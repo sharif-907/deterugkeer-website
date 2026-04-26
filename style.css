@@ -314,7 +314,7 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('Fotos%20website/DSC00428.jpg');
+  background-image: url('DSC00428.jpg');
   background-size: cover;
   background-position: center 25%;
   transform: scale(1.05);
@@ -524,7 +524,7 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
 .verse-bg {
   position: absolute;
   inset: 0;
-  background-image: url('Fotos%20website/DSC07618.jpg');
+  background-image: url('DSC07618.jpg');
   background-size: cover;
   background-position: center 20%;
 }
@@ -759,7 +759,7 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
 .doneer-bg {
   position: absolute;
   inset: 0;
-  background-image: url('Fotos%20website/DSC07601.jpg');
+  background-image: url('DSC07601.jpg');
   background-size: cover;
   background-position: center 30%;
 }
