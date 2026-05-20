@@ -91,9 +91,9 @@
       const sectionH = journeySection.offsetHeight;
       const windowH = window.innerHeight;
 
-      // Progress: 0 when section enters viewport, 1 when section center reaches viewport center
+      // Progress: completes as section scrolls through viewport — reaches 100% when node 5 comes into view
       const progress = Math.min(1, Math.max(0,
-        (windowH - rect.top) / (sectionH * 0.5 + windowH * 0.4)
+        (windowH - rect.top) / (sectionH * 0.8 + windowH * 0.4)
       ));
 
       if (journeyFill) {
