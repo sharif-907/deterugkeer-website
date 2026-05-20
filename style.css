@@ -185,7 +185,7 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
 }
 .nav-logo {
   /* Container clips the transparent whitespace padding around the logo */
-  height: 90px;
+  height: 110px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -195,13 +195,13 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
 }
 .nav-logo img {
   /* Oversized so the padding is cropped, leaving only heart + text */
-  height: 140px;
+  height: 170px;
   width: auto;
   flex-shrink: 0;
   transition: height 0.3s var(--ease-out);
 }
-.main-nav.scrolled .nav-logo { height: 72px; }
-.main-nav.scrolled .nav-logo img { height: 112px; }
+.main-nav.scrolled .nav-logo { height: 90px; }
+.main-nav.scrolled .nav-logo img { height: 140px; }
 .nav-links {
   display: flex;
   align-items: center;
@@ -596,7 +596,7 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
   height: 100%;
   width: 0%;
   background: var(--accent);
-  transition: width 0.6s var(--ease-out);
+  transition: width 0.15s var(--ease-out);
   box-shadow: 0 0 12px var(--accent-glow);
 }
 .journey-node {
@@ -1318,7 +1318,7 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
 @media (max-width: 1024px) {
   .journey-track { flex-direction: column; align-items: stretch; gap: 0; }
   .journey-line { top: 0; left: 28px; right: auto; bottom: 28px; width: 2px; height: auto; }
-  .journey-line-fill { width: 100% !important; height: var(--journey-fill, 0%); transition: height 0.6s var(--ease-out); }
+  .journey-line-fill { width: 100% !important; height: 0%; transition: height 0.15s var(--ease-out); }
   .journey-node { flex-direction: row; text-align: left; padding: 24px 0 24px 60px; align-items: flex-start; }
   .node-circle { position: absolute; left: 0; flex-shrink: 0; margin-bottom: 0; }
   .node-content { display: flex; flex-direction: column; }
