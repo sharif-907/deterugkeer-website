@@ -596,7 +596,6 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
   height: 100%;
   width: 0%;
   background: var(--accent);
-  transition: width 0.15s var(--ease-out);
   box-shadow: 0 0 12px var(--accent-glow);
 }
 .journey-node {
@@ -1318,7 +1317,7 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
 @media (max-width: 1024px) {
   .journey-track { flex-direction: column; align-items: stretch; gap: 0; }
   .journey-line { top: 0; left: 28px; right: auto; bottom: 28px; width: 2px; height: auto; }
-  .journey-line-fill { width: 100% !important; height: 0%; transition: height 0.15s var(--ease-out); }
+  .journey-line-fill { width: 100% !important; height: 0%; }
   .journey-node { flex-direction: row; text-align: left; padding: 24px 0 24px 60px; align-items: flex-start; }
   .node-circle { position: absolute; left: 0; flex-shrink: 0; margin-bottom: 0; }
   .node-content { display: flex; flex-direction: column; }
