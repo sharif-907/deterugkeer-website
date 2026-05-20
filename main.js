@@ -97,11 +97,10 @@
       ));
 
       if (journeyFill) {
-        // Desktop: width, Mobile: height (handled via CSS)
         if (window.innerWidth > 1024) {
           journeyFill.style.width = (progress * 100) + '%';
         } else {
-          journeySection.style.setProperty('--journey-fill', (progress * 100) + '%');
+          journeyFill.style.height = (progress * 100) + '%';
         }
       }
 
