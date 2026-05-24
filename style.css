@@ -1329,6 +1329,10 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
 @media (max-width: 768px) {
   .nav-links { display: none; }
   .hamburger { display: flex; }
+  .nav-logo { height: 70px; }
+  .nav-logo img { height: 110px; }
+  .main-nav.scrolled .nav-logo { height: 60px; }
+  .main-nav.scrolled .nav-logo img { height: 95px; }
   .grid-2 { grid-template-columns: 1fr; }
   .photo-stack { height: 380px; }
   .photo-stack .photo-1 { width: 80%; height: 60%; }
