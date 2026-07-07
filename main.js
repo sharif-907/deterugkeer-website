@@ -1,5 +1,5 @@
 /* ============================================================
-   DE TERUGKEER — Main JavaScript
+   DE TERUGKEER: Main JavaScript
    ============================================================ */
 
 (function () {
@@ -91,7 +91,7 @@
       const sectionH = journeySection.offsetHeight;
       const windowH = window.innerHeight;
 
-      // Progress: completes as section scrolls through viewport — reaches 100% when node 5 comes into view
+      // Progress: completes as section scrolls through viewport: reaches 100% when node 5 comes into view
       const progress = Math.min(1, Math.max(0,
         (windowH - rect.top) / (sectionH * 0.8 + windowH * 0.4)
       ));
@@ -127,7 +127,7 @@
 
     const applyParallax = () => {
       const rect = photoMasonry.getBoundingClientRect();
-      // Offset from viewport center — clamped so shift never exceeds ~30px
+      // Offset from viewport center: clamped so shift never exceeds ~30px
       const rawOffset = (rect.top + rect.height / 2) - window.innerHeight / 2;
       const offset = Math.max(-500, Math.min(500, rawOffset));
 

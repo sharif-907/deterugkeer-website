@@ -1,5 +1,5 @@
 /* ============================================================
-   DE TERUGKEER — Main Stylesheet
+   DE TERUGKEER: Main Stylesheet
    Design: Concept 1 structure + Concept 3 glassmorphism
    Colors: Concept 1 palette on dark background
    ============================================================ */
@@ -565,7 +565,7 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
 }
 
 /* ══════════════════════════════════════════
-   DE REIS — Journey Timeline
+   DE REIS: Journey Timeline
 ══════════════════════════════════════════ */
 .de-reis { background: var(--bg-2); }
 .de-reis .section-header {
@@ -985,7 +985,7 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
   color: var(--accent);
   background: rgba(56, 189, 248, 0.08);
 }
-/* Light bg variant — used on contact page */
+/* Light bg variant: used on contact page */
 .contact-social-links .social-link {
   border-color: var(--border);
   background: var(--bg-2);
@@ -1005,7 +1005,7 @@ p  { color: var(--text-muted); font-size: 1.05rem; }
 .footer-bottom a { color: var(--accent); opacity: 0.8; }
 
 /* ══════════════════════════════════════════
-   PAGE HERO (shorter — for inner pages)
+   PAGE HERO (shorter: for inner pages)
 ══════════════════════════════════════════ */
 .page-hero {
   position: relative;
